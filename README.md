@@ -21,7 +21,12 @@ cd ~ && git clone https://github.com/dw-0/kiauh.git
 cd ~/printer_data/
 rm -rd config
 git clone git@github.com:AquaMorph/klipper-config.git config
-ln -s ~/printer_data/config/print-[Printer Name].cfg ~/printer_data/config/printer.cfg
 ln -s ~/Klipper-Adaptive-Meshing-Purging/Configuration ~/printer_data/config/KAMP
 ```
-
+5. Create printer.cfg file and link to desired printer config.
+```sh
+emacs printer.cfg
+```
+```
+[include printer/cr10s.cfg]
+```
