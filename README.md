@@ -8,7 +8,7 @@ My configs for klipper firmware.
  - Creality Ender 3
 
 ## Setup
-1. Install KIAUH.
+1. Install [KIAUH](https://github.com/dw-0/kiauh).
 ```sh
 sudo apt install git
 cd ~ && git clone https://github.com/dw-0/kiauh.git
