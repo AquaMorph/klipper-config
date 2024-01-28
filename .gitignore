@@ -5,3 +5,4 @@ KAMP
 .moonraker.conf.bkp
 moonraker.conf.backup
 crowsnest.conf.*
+printer-*_*.cfg
