@@ -6,6 +6,7 @@ My configs for klipper firmware.
 
  - Creality CR-10s
  - Creality Ender 3
+ - Voron 2.4
 
 ## Setup
 1. Install [KIAUH](https://github.com/dw-0/kiauh).
